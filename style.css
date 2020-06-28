@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sfondo{
+  background-color: #3F0D12;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 30px;
+  color: #3F0D12;
+  font-size: 3em;
+  background-color: #000;
+}
+
+.hidden {
+  display: none;
+  list-style: none;
+}
+
+.show{
+  display: block;
+}
+
+.fizz {
+  color: white;
+}
+
+.buzz {
+  color: blue;
+}
+
+.fizzbuzz {
+  color: purple;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
